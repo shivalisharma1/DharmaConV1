@@ -17,8 +17,8 @@ export function Navigation() {
 
   const navItems = [
     { label: "About", id: "about" },
-    { label: "Team", id: "team" },
-    { label: "Art", id: "art" },
+    { label: "What to Bring", id: "what-you-need" },
+    { label: "Mentors", id: "mentors" },
     { label: "CNCH", id: "who-we-are" },
     { label: "Quiz", id: "quiz" },
     { label: "Speakers", id: "speakers" },
@@ -59,10 +59,10 @@ export function Navigation() {
           {/* Tablet Navigation - Simplified */}
           <div className="hidden md:flex lg:hidden items-center space-x-4">
             <button
-              onClick={() => scrollToSection("team")}
+              onClick={() => scrollToSection("mentors")}
               className="text-gray-700 hover:text-orange-600 font-medium transition-colors text-sm"
             >
-              Team
+              Mentors
             </button>
             <button
               onClick={() => scrollToSection("quiz")}
